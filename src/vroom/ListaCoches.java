@@ -17,7 +17,7 @@ public class ListaCoches {
 	}
 	
 	public void addCoche(String pMatricula, String pMarca, String pModelo,
-			String pColor, int pCc, int pCaballos, int pPrecio) {
+			String pColor, float pCc, int pCaballos, int pPrecio) {
 		coches.add(new Coche(pMatricula, pMarca, pModelo,
 				pColor,	pCc, pCaballos, pPrecio));
 	}

@@ -26,13 +26,15 @@ public class Coche {
 	}
 	
 	public void printCoche() {
-		System.out.println(matricula);
-		System.out.println(marca);
-		System.out.println(modelo);
-		System.out.println(color);
-		System.out.println(cc);
-		System.out.println(caballos);
-		System.out.println(precio);
+		System.out.println("\n------------------------");
+		System.out.println("Matricula: " + matricula);
+		System.out.println("Marca: " + marca);
+		System.out.println("Modelo: " + modelo);
+		System.out.println("Color: " + color);
+		System.out.println("CC: " + cc);
+		System.out.println("HP: " + caballos);
+		System.out.println("Precio: " + precio);
+		System.out.println("------------------------");
 	}
 
 	public String getMatricula() {
